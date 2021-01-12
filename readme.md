@@ -7,7 +7,8 @@ Required libraries:
 PyUSB on RPi, tmrh20 nRF24 library on both, HoodLoader2 on Arduino's 16u2  
 
 Installation:  
-  
+
+Wire nRF24l01 to RPi and Arduino, it uses SPI. There are wiring diagrams online  
 Set up RPi to be a clean install of Raspbian.  
 Update the key to a 16-byte value in keyboard_receiver_arduino.ino and keyboard_transmitter.py  
 Flash keyboard_receiver_arduino to Arduino  
