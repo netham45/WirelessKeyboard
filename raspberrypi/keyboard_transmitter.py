@@ -83,7 +83,7 @@ def sendData( data, interface ):
 def listen1():
     print( "Listening to Keyboard Endpoint" )
     while True:
-        time.sleep(.05)
+        time.sleep(.01)
         try:
             data = dev.read( endpoint.bEndpointAddress, endpoint.wMaxPacketSize, -1 )
             sendData( data, 1 )
